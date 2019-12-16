@@ -42,3 +42,72 @@ const questions = [
         "https://www.nytimes.com/2005/06/28/health/the-claim-never-swim-after-eating.html"
     }
 ];
+
+// variables
+
+let tags;
+let tagsClass = '';
+let liTagsid = [];
+let correctAns = 0;
+let quizPage = 1;
+
+let currentIndex = 0;
+let currentQuestion = questions[currentIndex];
+
+let previousQuestion;
+let previousIndex = 0;
+
+
+const showQuestions = function () {
+    if (currentIndex !== 0) {
+        ulTag.innerHTML = '';
+        button.innerHTML = 'Submit';
+        button.className = 'submit';
+        button.id = 'submit';
+
+        document.getElementById('quizNumber').innerHTML = quizPage
+
+    }
+
+    if(currentIndex == questions.length) {
+        ulTag.innerHTML = '';
+        document.getElementById('question').innerHTML = '';
+
+        showResults();
+        return;
+    }
+
+    questionTitle.innerHTML = currentQuestion.question;
+    console.log(currentQuestion.question);
+
+
+    for(let i = 0; i<currentQuestion.answers.length; i++) {
+        let newAns = document.createElement('li');
+        newAns.id = 'ans' + (i+1);
+        newAns.className = 'notSelected';
+        const textAns = document.createTextNode(currentQuestion.answers[i]);
+        newAns.appendChild(textAns);
+        let addNewAnsHere = document.getElementById('answer');
+        addNewAnsHere.appendChild(newAns);
+
+        console.log(currentQuestion.answers[i])
+    }
+
+    let $liTags = $('.notSelected').click(function(list) {
+        list.preventDefault();
+        $liTags.removeClass(classHighlight);
+        $(this).addClass(classHighlight);
+
+        for (let i = 0; i < currentQuestion.answers.length; i++) {
+            if ($liTags[i].className == 'notSelected selected') {
+                tags = $liTags[i].id;
+                console.log(tags);
+                tagsClassName = $liTags[i];
+            }
+        }
+    });
+
+    button.onclick = function() {
+        checkAnswer();
+    }
+}
