@@ -8,7 +8,7 @@ const questions = [
         link: 'https://www.sleepfoundation.org/articles/sleepwalking'
     },
     {
-        question: 'Does Suger affect hyperactivity?',
+        question: 'Does Sugar effect hyperactivity?',
         answers: ['Fiction', 'Fact'],
         correct: 0,
         description:
@@ -24,7 +24,7 @@ const questions = [
         link: 'https://academic.oup.com/ijtj/article/5/1/1/2357002'
     },
     {
-        question: 'Photogeneic memory is a real thing?',
+        question: ' Is photogenic memory real?',
         answers: ['Fiction', 'Fact'],
         correct: 0,
         description:
@@ -125,7 +125,7 @@ function checkAnswer() {
     let selectedItem = document.getElementById(tags);
     if (selectedItem == undefined) {
         alert('Please select an answer!');
-        console.log('selected Itemmmmmm', selectedItem);
+        console.log('selected Item', selectedItem);
         return;
     } else {
       // get user answer in form of text
@@ -145,14 +145,12 @@ function checkAnswer() {
         let description = document.createElement('p');
         description.innerHTML = currentQuestion.description;
         let believe = document.createElement('a');
-        believe.innerHTML = 'dont believe me?';
+        believe.innerHTML = 'Don\'t Believe Me?';
         believe.href = currentQuestion.link;
         believe.setAttribute('target', '_blank');
         showMore.append(description, believe);
         ulTag.appendChild(showMore);
-        console.log(
-            'Wrong! The corrent answer is: ' +
-                currentQuestion.answers[currentQuestion.correct]
+        console.log('Wrong! The correct answer is: ' + currentQuestion.answers[currentQuestion.correct]
         );
         //change the background of the wrong answer
         selectedItem.className = 'wrong';
@@ -169,7 +167,7 @@ function checkAnswer() {
         button.className = 'next';
         button.id = 'next';
 
-        prevousQuestion = currentQuestion;
+        previousQuestion = currentQuestion;
         quizPage++;
         currentIndex++;
         currentQuestion = questions[currentIndex];

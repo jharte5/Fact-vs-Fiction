@@ -1,28 +1,34 @@
 # Fact-vs-Fiction
-Fact vs Fiction is a game that will require the user to determine whether the given statement/question is a FACT or FICTION.
+Fact vs Fiction is a game that will require the user to determine whether the given statement/question is a FACT or FICTION. Below are the questions to be asked. For each correct answer given, the user will be awarded 10 points to be totaled in the end. An incorrect answer will result in 0 points and will give you a brief description or 'bust your mythical way of thinking.' Still dont dwelling in your mythical way of thinking? After choosing an incorrect answer, a link will be provided named 'Dont Believe me' to give scientific insight on why you shouldnt think mythically any longer.
 
-1.'Is it ok to awaken a sleepwalker?'
- correct ans = fact > 10pts
-incorrect answer = fiction description below 
-They’ll be really confused, but it’s okay. They’re more likely to hurt themselves if they’re not awoken
-(dont believe me) link (https://www.sleepfoundation.org/articles/sleepwalking)
 
-2. 'Does Suger affect hyperactivity?'
- correct ans = fiction > 10pts
-Studies have disproved this. ADHD and poor behaviours still occurs in children with sugar-free diets
+
+
+'Is it ok to awaken a sleepwalker?'
+correct ans =  10pts
+incorrect answer = 0pts
+
+link (https://www.sleepfoundation.org/articles/sleepwalking)
+
+'Does Sugar affect hyperactivity?'
+correct ans = 10pts
+incorrect answer = 0pts
+
 link (https://www.bmj.com/content/337/bmj.a2769)
 
-1. ' Is closure a real thing? '
- correct ans = fiction > 10pts
-No evidence this mythical emotional end state is ever achieved by victims of trauma, bereavement or loss.
+' Is closure a real thing? '
+correct ans = 10pts
+incorrect answer = 0pts
+
 link (https://academic.oup.com/ijtj/article/5/1/1/2357002)
 
-1. ' Photogeneic memory is a real thing? '
- correct ans = fiction > 10pts
-No hard scientific evidence that a memory that mimics a camera is a real ability. Some people just have great or well-practised memories
+' Photogenic memory is a real thing? '
+correct ans = 10pts
+incorrect answer = 0pts
+
 link (https://slate.com/technology/2006/04/no-one-has-a-photographic-memory.html)
 
-1. ' Dont Eat and Swim ' 
- correct ans = fiction > 10pts
-Doesn’t increase risk of cramps; alcohol is the biggest risk increaser. But a full stomachwill make you short of breath.
+' Don't Eat and Swim ' 
+correct ans = 10pts
+incorrect answer = 0pts
 link(https://www.nytimes.com/2005/06/28/health/the-claim-never-swim-after-eating.html)
