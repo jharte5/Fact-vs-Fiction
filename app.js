@@ -61,6 +61,9 @@ const ulTag = document.getElementsByTagName('ul')[0];
 const button = document.getElementById('submit');
 const questionTitle = document.getElementById('question');
 
+const classHighlight = 'selected';
+
+// ok so this is where we display answers and highlight whats selected
 const showQuestions = function () {
     if (currentIndex !== 0) {
         ulTag.innerHTML = '';
@@ -114,3 +117,5 @@ const showQuestions = function () {
         checkAnswer();
     }
 }
+
+showQuestions();
