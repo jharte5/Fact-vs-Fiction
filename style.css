@@ -20,3 +20,152 @@ body {
 button, a{
     cursor: pointer;
 }
+
+.main {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 575px;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.main-content{
+    color: black;
+}
+
+.main-content div{
+    margin-top: 14px;
+}
+
+.main-content div a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px;
+    background-color: black;
+    border-top-right-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/*format text*/
+p {
+    padding: 10px 10px 0;
+}
+
+/*Form area width*/
+.form-area, ul {
+    margin: 20px auto;
+    max-width: 550px;
+}
+
+
+li {
+    list-style-type: none;
+    text-align: left;
+    background-color: transparent;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    font-weight: normal;
+}
+
+li:hover {
+    background: #ECEEF0;
+}
+
+/*Change effect of question when the questions is selected*/
+.selected, .selected:hover {
+    background: #FFDEAD;
+}
+
+/*change correct answer background*/
+.correct, .correct:hover {
+    background: #9ACD32;
+    color: white;
+}
+
+/*change wrong answer background*/
+.wrong, .wrong:hover {
+    background: #db3c3c;
+    color: white;
+}
+
+
+/* submit button */
+
+.main button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    width: 20%;
+    border: none;
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+.submit:hover, .submit:active, .submit:focus {
+    background: #43A047;
+}
+
+.submit {
+    background: #4CAF50;
+    min-width: 120px;
+}
+/*next question button*/
+
+.next {
+    background: #fa994a;
+    min-width: 120px;
+}
+
+.next:hover, .next:active, .next:focus {
+    background: #e38a42;
+}
+
+/* results page */
+
+h3 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 40pt;
+    line-height: 0.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.startHome{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.startHome a{
+    margin-top: 15px;
+}
+
+.startHome a:first-child{
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px;
+    background-color: rgb(94, 94, 94);
+    border-top-right-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.startHome a:last-child{
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px;
+    background-color: teal;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.wrapper{
+    text-align: left;
+}
+
+.showMore p{
+    margin-bottom: 7px;
+}
