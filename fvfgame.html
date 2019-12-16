@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project for Jon</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!-- main page -->
+        <div class="main">
+            <div class="wrapper" id="pages">
+                <span id="quizNumber">1</span><span>/5</span>
+            </div>
+            <!-- quiz question -->
+            <div class="quiz-questions" id="display-area">
+                <p id="question"></p>
+                <ul id="answer"></ul>
+
+                <div id="quiz-results">
+                    <button type="button" name="button" class="submit" id="submit">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+        <canvas id="canvas"></canvas>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
