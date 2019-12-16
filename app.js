@@ -57,6 +57,9 @@ let currentQuestion = questions[currentIndex];
 let previousQuestion;
 let previousIndex = 0;
 
+const ulTag = document.getElementsByTagName('ul')[0];
+const button = document.getElementById('submit');
+const questionTitle = document.getElementById('question');
 
 const showQuestions = function () {
     if (currentIndex !== 0) {
