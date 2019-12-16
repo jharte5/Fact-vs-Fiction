@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: purple;
 }
 
 body {
@@ -22,7 +23,7 @@ button, a{
 }
 
 .main {
-    background-color: white;
+    background-color: black;
     margin: 0 auto;
     max-width: 575px;
     width: 100%;
@@ -31,7 +32,7 @@ button, a{
 }
 
 .main-content{
-    color: black;
+    color:purple;
 }
 
 .main-content div{
@@ -42,17 +43,17 @@ button, a{
     text-decoration: none;
     color: white;
     padding: 8px 30px;
-    background-color: black;
+    background-color: purple;
     border-top-right-radius: 10px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-/*format text*/
+
 p {
     padding: 10px 10px 0;
 }
 
-/*Form area width*/
+
 .form-area, ul {
     margin: 20px auto;
     max-width: 550px;
@@ -126,7 +127,7 @@ li:hover {
 h3 {
     text-align: center;
     font-family: Arial, sans-serif;
-    color: black;
+    color: purple;
     font-size: 40pt;
     line-height: 0.5em;
     font-weight: normal;
