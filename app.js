@@ -181,3 +181,40 @@ function checkAnswer() {
     }
     return;
 }
+
+// ok so this headache was the final score
+function showResults() {
+    const displayArea = document.getElementById('display-area');
+    //deleting page number
+    document.getElementById('pages').innerHTML = '';
+
+    // Change Title
+    questionTitle.innerHTML = '<h1>Your Score</h1>';
+
+    // Get the area that will be used to display the user's score
+    let newInfo = document.getElementById('quiz-results');
+    newInfo.innerHTML = '';
+
+    // adding the score
+    let newScore = document.createElement('h3');
+    newScore.innerHTML = `${Math.floor(correctAns * 10)}`;
+    newInfo.appendChild(newScore);
+
+    //start again and home button
+    let startHome = document.createElement('div');
+    startHome.className = 'startHome';
+    let startAgain = document.createElement('a');
+    startAgain.innerHTML = 'Start again';
+    startAgain.href = 'fvfgame.html';
+    let goHome = document.createElement('a');
+    goHome.innerHTML = 'Go Home';
+    goHome.href = 'index.html';
+    startHome.append(startAgain, goHome);
+    displayArea.appendChild(startHome);
+
+    if (correctAns >= 4) {
+        let newCongrats = document.createElement('p');
+        newCongrats.innerHTML = 'Congratulations! You did a Good Job!';
+        displayArea.appendChild(newCongrats);
+    }
+}
