@@ -1,5 +1,5 @@
 # Fact-vs-Fiction
-Fact vs Fiction is a game that will require the user to determine whether the given statement/question is a FACT or FICTION. Below are the questions to be asked. For each correct answer given, the user will be awarded 10 points to be totaled in the end. An incorrect answer will result in 0 points and will give you a brief description or 'bust your mythical way of thinking.' Still dont dwelling in your mythical way of thinking? After choosing an incorrect answer, a link will be provided named 'Dont Believe me' to give scientific insight on why you shouldnt think mythically any longer.
+Fact vs Fiction is a game that will require the user to determine whether the given statement/question is a FACT or FICTION. Below are the questions to be asked. For each correct answer given, the user will be awarded 10 points to be totaled in the end. An incorrect answer will result in 0 points and will give you a brief description or 'bust your mythical way of thinking.' Still don't dwelling in your mythical way of thinking? After choosing an incorrect answer, a link will be provided named 'Don't Believe me' to give scientific insight on why you shouldn't think mythically any longer.
 
 
 

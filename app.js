@@ -75,7 +75,7 @@ const showQuestions = function () {
 
     }
 
-    if(currentIndex == questions.length) {
+    if(currentIndex === questions.length) {
         ulTag.innerHTML = '';
         document.getElementById('question').innerHTML = '';
 
@@ -123,7 +123,7 @@ showQuestions();
 // ok so this function checks the answer if its correct or not 
 function checkAnswer() {
     let selectedItem = document.getElementById(tags);
-    if (selectedItem == undefined) {
+    if (selectedItem === undefined) {
         alert('Please select an answer!');
         console.log('selected Item', selectedItem);
         return;
